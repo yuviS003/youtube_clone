@@ -11,7 +11,7 @@ const Videos = ({ videos, direction }) => {
       direction={direction || "row"}
       flexWrap="wrap"
       justifyContent="center"
-      alignItems="start"
+      alignItems="center"
       gap={5}
     >
       {videos.map((item, idx) => (
