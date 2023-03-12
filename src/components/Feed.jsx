@@ -33,7 +33,7 @@ const Feed = () => {
         <Typography
           className="copyright"
           variant="body2"
-          sx={{ mt: 1.5, color: "#fff" }}
+          sx={{ mt: 1.5, color: "#fff", textAlign: "center" }}
         >
           Copyright © 2022 JSM Media
         </Typography>
@@ -44,6 +44,7 @@ const Feed = () => {
           variant="h4"
           fontWeight="bold"
           mb={2}
+          pl={{ md: 6, lg:10 }}
           sx={{ color: "white" }}
         >
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>

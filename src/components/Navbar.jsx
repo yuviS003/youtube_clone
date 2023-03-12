@@ -12,6 +12,7 @@ const Navbar = () => (
     sx={{
       position: "sticky",
       background: "#000",
+      zIndex: 100,
       top: 0,
       justifyContent: "space-between",
     }}
